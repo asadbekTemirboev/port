@@ -1,0 +1,2347 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body::-webkit-scrollbar {
+  width: 20px;
+  background-color: #f9f9fd;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 2px;
+  background-color: #212621;
+}
+
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+  background-color: #f9f9fd;
+}
+
+
+
+.container1 {
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.header1 {
+  padding: 0 9%;
+  padding-bottom: 10%;
+  background: url(images/7685e162859197.5a9e3fa867099.jpg);
+  background-size: 100% 100%;
+  height: 110%;
+  padding-bottom: 5%;
+}
+
+.navbar1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.navbar1 .logo {
+  width: 300px;
+  height: 150px;
+}
+
+.navbar_ul1,
+.navbar_ul2 {
+  display: flex;
+}
+
+.navbar_ul1 li,
+.navbar_ul2 li {
+  list-style: none;
+  padding: 10px;
+}
+
+.navbar_ul1 li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.5s;
+  font-size: 18px;
+}
+
+.navbar_ul1 li a:hover {
+  background-color: #ff822e;
+}
+
+.navbar_ul2 button {
+  margin: 0 10px;
+  padding: 0 10px;
+  background-color: #d05300;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  border-radius: 10px;
+}
+
+.navbar_ul2 button a {
+  color: white;
+}
+
+.navbar_icon a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+
+.header_block1 {
+  display: flex;
+  justify-content: space-around;
+  padding: 3% 0;
+}
+
+.header_block1 div {
+  margin: 0 10px;
+}
+
+.head_block1 {
+  padding: 0 20px 0 0;
+}
+
+.head_block1 h1 {
+  color: white;
+  font-weight: 900;
+  text-shadow: 1px 1px 1px #000000;
+}
+
+.head_block1 p {
+  color: white;
+  font-weight: 600;
+  text-shadow: 1px 1px 1px #000000;
+  width: 100%;
+  margin: 10px 5px;
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+.head_block1 p i {
+  font-size: 40px;
+  border-radius: 50px;
+  margin-right: 10px;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+}
+
+
+
+.head_block2 form {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border: 1px solid red;
+  padding: 5%;
+}
+
+.head_block2 form h3 {
+  font-weight: 500;
+}
+
+.head_block2 form h3 span {
+  font-weight: 800;
+}
+
+.head_block2 form .title {
+  font-size: 12px;
+  padding: 2% 0;
+}
+
+.head_block2 form input {
+  padding: 20px;
+  margin: 10px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  border: none;
+  background-color: #f1f1f1;
+}
+
+.head_block2 form .test_head2 {
+  display: flex;
+  align-items: center;
+}
+
+.head_block2 form .test_head2 input {
+  width: 10%;
+}
+
+.head_block2 form .test_head2 label {
+  font-size: 12px;
+  padding: 10px;
+}
+
+.head_block2 form button {
+  padding: 20px;
+  margin: 10px;
+  width: 95%;
+  color: white;
+  background-color: #d05300;
+  border: none;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 20px;
+}
+
+.write_whatsapp {
+  background: #25D366;
+  border: 1px solid violet;
+  color: white;
+  font-weight: 700;
+  font-size: 30px;
+  width: 50%;
+  padding: 30px;
+  border-radius: 50px;
+}
+
+.write_whatsapp a {
+  color: white;
+  text-decoration: none
+}
+
+.write_whatsapp a:hover {
+  color: white;
+  text-decoration: none
+}
+
+.write_whatsapp:hover {
+  background: #0e7e37;
+  text-decoration: underline;
+}
+
+
+
+
+
+.block1 {
+  padding: 5% 8%;
+
+}
+
+.block1 h1 {
+  text-align: center;
+  font-weight: 600;
+  padding-bottom: 3%;
+  text-shadow: 1px 1px 1px black;
+}
+
+.block1_1 {
+  display: flex;
+  justify-content: center;
+}
+
+.block1_1 div {
+  margin: 0 20px;
+}
+
+.block1_1 .cards {
+  width: 40%;
+  height: 100%;
+
+  padding-bottom: 2%;
+}
+
+.block1_1 .cards img {
+  width: 100%;
+  height: 260px;
+}
+
+.card_title {
+  font-size: 25px;
+  text-shadow: 1px 1px 1px black;
+}
+
+.block1 .cards .card_title,
+.card_text {
+  padding: 2% 3%;
+}
+
+.card_text {
+  padding: 0 5%;
+  height: 200px;
+  overflow: auto;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.block1_1 .cards button {
+  padding: 10px;
+  margin: 0 10px;
+  border: none;
+  background-color: #e45b00;
+  color: white;
+  font-size: 20px;
+  font-weight: 800;
+  border-radius: 5px;
+}
+
+.block1_1 .cards button:hover {
+  background-color: #b44800;
+}
+
+
+
+.block1_2 {
+  display: flex;
+  justify-content: center;
+}
+
+.block1_2 div {
+  margin: 0 20px;
+}
+
+.block1_2 .cards {
+  width: 40%;
+  height: 100%;
+
+  padding-bottom: 2%;
+}
+
+.block1_2 .cards img {
+  width: 100%;
+  height: 260px;
+}
+
+.block1_2 .cards .card_title,
+.card_text {
+  padding: 2% 3%;
+}
+
+.block1_2 .cards button {
+  padding: 10px;
+  margin: 0 10px;
+  border: none;
+  background-color: #e45b00;
+  color: white;
+  font-size: 20px;
+  font-weight: 800;
+  border-radius: 5px;
+}
+
+.block1_2 .cards button:hover {
+  background-color: #b44800;
+}
+
+.card_text {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.card_text span {
+  font-size: 20px;
+  color: darkmagenta;
+  font-weight: 700;
+}
+
+.card_text::-webkit-scrollbar {
+  width: 20px;
+  background-color: #f9f9fd;
+}
+
+.card_text::-webkit-scrollbar-thumb {
+  border-radius: 2px;
+  background-color: #212621;
+}
+
+.card_text::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+  background-color: #f9f9fd;
+}
+
+
+
+.block2 {
+  padding: 0% 9%;
+  padding-bottom: 5%;
+  font-family: 'Montserrat', sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.block2 h2 {
+  text-align: center;
+  padding-bottom: 5%;
+  text-shadow: 1px 1px 1px black;
+}
+
+.block2_1 {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.block2_1 .number2,
+.block2_2 .number2 {
+  font-weight: 700;
+}
+
+.block2_1 li {
+  width: 40%;
+  list-style: none;
+  padding: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.block2_1 .number1 {
+  padding: 10px 18px;
+  background-color: #b44800;
+  color: white;
+  position: absolute;
+  margin-left: -50px;
+  border-radius: 50px;
+}
+
+.block2_2 {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.block2_2 li {
+  width: 40%;
+  list-style: none;
+  padding: 40px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.block2_2 .number1 {
+  padding: 10px 18px;
+  background-color: #b44800;
+  color: white;
+  position: absolute;
+  margin-left: -50px;
+  border-radius: 50px;
+}
+
+
+
+.block3 {
+  padding: 8% 10%;
+  background-image: url(images/zamer.jpg);
+  height: 100%;
+  background-size: 100% 100%;
+  background-color: rgb(9, 9, 108);
+  background-blend-mode: multiply;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.block3_form {
+  display: flex;
+  align-items: center;
+}
+
+.block3 form h1 {
+  color: white;
+  text-align: center;
+  font-size: 35px;
+}
+
+.block3 form p {
+  color: white;
+  text-align: center;
+
+}
+
+.block3 form input {
+  text-align: center;
+  padding: 15px;
+  margin: 10px;
+  width: 80%;
+  border: none;
+
+}
+
+.block3 .test_head2 {
+  display: flex;
+  align-items: center;
+
+}
+
+.block3 .test_head2 input {
+  width: 20px;
+  border: none;
+}
+
+.block3 .test_head2 label {
+  font-size: 12px;
+}
+
+.block3 form button {
+  width: 80%;
+  padding: 15px;
+  font-size: 25px;
+  color: white;
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+  background-color: #b44800;
+  transition: 0.5s;
+}
+
+.block3 form button:hover {
+  background-color: #212621;
+}
+
+
+
+
+.block4 {
+  display: flex;
+  height: 100%;
+
+}
+
+
+
+.block4_blk1 {
+  background: url(images/risovannye-abstrakciya-grafika-cveta-872759.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  width: 50%;
+  padding: 3% 10%;
+  padding-bottom: 5%;
+}
+
+.block4_blk1 h3 {
+  color: white;
+  font-size: 1.8pc;
+  padding: 20px 0px;
+  width: 120%;
+  font-weight: 800;
+}
+
+.block4_blk1 ul li {
+  font-size: 16px;
+  font-weight: 700;
+  padding: 14px 0;
+  list-style-position: outside;
+}
+
+
+
+
+.block4_blk1 ul li {
+  padding: 0 0 20px 50px;
+  position: relative;
+  margin: 0;
+  list-style: none;
+}
+
+.block4_blk1 ul li:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: counter(steps);
+  counter-increment: steps;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  text-align: center;
+  line-height: 24px;
+  background: #fff;
+}
+
+.block4_blk1 ul li:before {
+  position: absolute;
+  left: 13px;
+  top: 0;
+  content: "";
+  height: 100%;
+  width: 0;
+  border-left: 2px dashed #ffffff;
+}
+
+.block4_blk1 ul li:last-of-type:before {
+  border: none;
+}
+
+.block4_blk1 ul li span {
+  font-size: 15px;
+  font-weight: 300;
+  padding: 15px 0;
+}
+
+.block4_blk1 button {
+  padding: 12px 20px;
+  border: none;
+  font-weight: 899;
+  border-radius: 8px;
+  transition: 0.5s;
+}
+
+.block4_blk1 button:hover {
+  background-color: #4c4d4c;
+  color: white;
+}
+
+.block4_blk2 {
+  background: url(images/dizajn-cherno-beloj-gostinoj_118.png);
+  background-size: 100% 100%;
+  width: 50%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.modal_content {
+  padding: 10%;
+}
+
+.modal_content form {
+  justify-content: center;
+}
+
+.modal_content form input {
+  display: block;
+  justify-content: center;
+}
+
+.footer-distributed {
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.whatsapp-button {
+  position: fixed;
+  right: 13px;
+  bottom: 90px;
+  transform: translate(-50%, -50%);
+  background: #25D366;
+  /*цвет кнопки*/
+  border-radius: 50%;
+  width: 55px;
+  /*ширина кнопки*/
+  height: 55px;
+  /*высота кнопки*/
+  color: #fff;
+  text-align: center;
+  line-height: 53px;
+  /*центровка иконки в кнопке*/
+  font-size: 35px;
+  /*размер иконки*/
+  z-index: 9999;
+}
+
+.whatsapp-button a {
+  color: #fff;
+}
+
+.whatsapp-button:before,
+.whatsapp-button:after {
+  content: " ";
+  display: block;
+  position: absolute;
+  border: 50%;
+  border: 1px solid #25D366;
+  /*цвет анимированных волн от кнопки*/
+  left: -20px;
+  right: -20px;
+  top: -20px;
+  bottom: -20px;
+  border-radius: 50%;
+  animation: animate 1.5s linear infinite;
+  opacity: 0;
+  backface-visibility: hidden;
+}
+
+.whatsapp-button:after {
+  animation-delay: .5s;
+}
+
+@keyframes animate {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(1.2);
+    opacity: 0;
+  }
+}
+
+
+
+
+
+
+
+
+@media (max-width : 800px) {
+  .whatsapp-button {
+    bottom: 5px;
+    /*отступ кнопки снизу от экрана*/
+    left: 70px;
+    /*отступ кнопки слева от экрана(right - справа)*/
+  }
+}
+
+
+
+.modal_okno2 {
+  font-size: 30px;
+  color: white;
+  text-shadow: 1px 1px white;
+  display: none;
+}
+
+
+
+
+.footer1 {
+  padding: 5% 10%;
+  display: flex;
+  background-color: #212621;
+  justify-content: space-around;
+}
+
+.footer_block1 {
+  width: 60%;
+}
+
+.footer_block1 .text {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  width: 50%;
+  font-size: 18px;
+  text-shadow: 1px 1px 1px white;
+  text-decoration: underline;
+}
+
+.footer_block1 .logo img {
+  width: 300px;
+  height: 150px;
+}
+
+.footer_block1 button a {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.footer_block1 .button_whatsapp {
+  border: none;
+  padding: 15px;
+  width: 50%;
+  margin: 10px 0;
+  background-color: #25D366;
+  transition: 0.5s;
+  border: 1px solid hotpink;
+  border-radius: 20px;
+}
+
+.footer_block1 .button_whatsapp:hover {
+  background-color: #039338;
+}
+
+.footer_block1 .button_telegram {
+  border: none;
+  padding: 15px;
+  width: 50%;
+  background-color: #2AABEE;
+  transition: 0.5s;
+  border: 1px solid hotpink;
+  border-radius: 20px;
+
+}
+
+.footer_block1 .button_telegram:hover {
+  background-color: #076293;
+}
+
+.footer_block1 .footer_icons {
+  display: flex;
+}
+
+
+.footer_block1 .footer_icons a {
+  padding: 5px 12px;
+  background-color: black;
+  margin: 10px;
+  border-radius: 50px;
+  font-size: 25px;
+  color: gray;
+  text-shadow: 1px 1px 1px white;
+}
+
+.footer_block2 {
+  width: 40%;
+}
+
+.footer_block2 form {
+  background-color: white;
+  padding: 10%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.footer_block2 form input {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0;
+  border: none;
+  background-color: #f1f1f1;
+}
+
+.footer_block2 form .test_head2 {
+  display: flex;
+  align-items: center;
+}
+
+.footer_block2 form .test_head2 input {
+  width: 20%;
+}
+
+.footer_block2 form button {
+  width: 100%;
+  padding: 20px;
+  margin: 5px 0;
+  font-size: 20px;
+  background-color: black;
+  color: white;
+  font-weight: 700;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.footer_block2 form button:hover {
+  background-color: #039338
+}
+
+
+@media (min-width:1100px) and (max-width:1360px) {
+  .header1 {
+    padding: 1% 2%;
+    padding-bottom: 5%;
+
+  }
+
+
+  .block1 {
+    padding: 2% 3%;
+  }
+
+  .block2 {
+    padding: 0% 2%;
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+  }
+
+
+
+  .block3 {
+    padding: 0% 3%;
+  }
+
+  .block4 {
+    display: flex;
+    height: 100%;
+  }
+
+  .footer1 {
+    padding: 2% 4%;
+  }
+
+  .footer_block1 button a {
+    font-size: 20px;
+  }
+}
+
+@media (min-width:960px) and (max-width:1100px) {
+  .header1 {
+    padding: 1% 1%;
+    padding-bottom: 5%;
+  }
+
+  .navbar1 .logo {
+    width: 200px;
+    height: 100px;
+  }
+
+  .head_block1 h1 {
+    color: white;
+    font-weight: 900;
+    text-shadow: 1px 1px 1px #000000;
+    font-size: 35px;
+    width: 100%;
+  }
+
+  .write_whatsapp {
+    background: #25D366;
+    border: 1px solid violet;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    width: 50%;
+    padding: 20px;
+    border-radius: 50px;
+  }
+
+  .block1 {
+    padding: 2% 2%;
+  }
+
+  .block1_1 {
+    display: block;
+    justify-content: center;
+  }
+
+  .block1_1 .cards {
+    width: 95%;
+    height: 100%;
+  }
+
+  .block1_1 .cards img {
+    width: 100%;
+    height: 460px;
+  }
+
+  .card_text {
+    padding: 0;
+    height: 100%;
+    overflow: auto;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+
+  .block1_2 {
+    display: block;
+    justify-content: center;
+  }
+
+  .block1_2 .cards {
+
+    width: 95%;
+    height: 100%;
+  }
+
+  .block1_2 .cards img {
+    width: 100%;
+    height: 460px;
+  }
+
+
+
+
+
+
+
+  .block2 {
+    padding: 5% 3%;
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+  }
+
+  .block2 ol li:before {
+    padding: 2px 10px;
+  }
+
+  .block3 {
+    padding: 5% 5%;
+    padding-bottom: 5%;
+
+  }
+
+  .block3 form h1 {
+
+    font-size: 25px;
+  }
+
+  .block4 {
+    display: flex;
+    height: 100%;
+  }
+
+  .block4_blk1 ul li {
+    font-size: 12px;
+    font-weight: 700;
+    padding: 14px 0;
+    list-style-position: outside;
+  }
+
+  .block4_blk1 ul li span {
+    font-size: 12px;
+    font-weight: 300;
+    padding: 15px 0;
+  }
+
+  .block4_blk1 ul li:after {
+
+    left: -13%;
+
+  }
+
+  .block4_blk1 ul li:before {
+    left: -8%;
+  }
+
+  .footer_block2 form h3 {
+    font-size: 20px;
+  }
+
+  .footer_block1 button a {
+    font-size: 12px;
+  }
+
+  .footer_block1 .text {
+    font-size: 12px;
+  }
+}
+
+@media (min-width:55px) and (max-width:960px) {
+
+  .navbar1 ul {
+    display: none;
+  }
+
+  .modal_okno2 {
+    display: block;
+  }
+
+  .navbar1 .logo {
+    width: 200px;
+    height: 100px;
+  }
+
+
+}
+
+
+
+@media (min-width:675px) and (max-width:960px) {
+  .header1 {
+    padding: 1% 4%;
+    padding-bottom: 5%;
+  }
+
+  .header_block1 {
+    display: block;
+
+  }
+
+  .head_block1 h1 {
+    color: white;
+    font-weight: 900;
+    text-shadow: 1px 1px 1px #000000;
+    font-size: 35px;
+    width: 100%;
+  }
+
+  .head_block2 form {
+    width: 98%;
+  }
+
+  .head_block2 form .test_head2 {
+    display: flex;
+    align-items: center;
+  }
+
+  .head_block2 form .test_head2 input {
+    width: 2%;
+  }
+
+  .head_block2 form .test_head2 label {
+    font-size: 12px;
+    padding: 0px;
+  }
+
+  .write_whatsapp {
+    background: #25D366;
+    border: 1px solid violet;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    width: 50%;
+    padding: 20px;
+    border-radius: 50px;
+  }
+
+  .block1 {
+    padding: 5% 0%;
+  }
+
+  .block1_1 {
+    display: block;
+    justify-content: center;
+  }
+
+
+
+  .block1_1 .cards {
+    width: 100%;
+    height: 100%;
+    padding: 0 5%;
+    margin: 0;
+    padding-bottom: 2%;
+
+
+  }
+
+
+  .block1_1 .cards img {
+    width: 100%;
+    height: 460px;
+  }
+
+  .card_text {
+    padding: 0;
+    height: 100%;
+    overflow: auto;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+
+  .block1_2 {
+    display: block;
+    justify-content: center;
+  }
+
+  .block1_2 .cards {
+
+    width: 100%;
+    height: 100%;
+    padding: 0 5%;
+  }
+
+  .block1_2 .cards img {
+    width: 100%;
+    height: 460px;
+  }
+
+
+
+
+
+
+
+  .block2 {
+    padding: 5% 3%;
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+  }
+
+  .block2_1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .block2_2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .block2_1 li,
+  .block2_2 li {
+    width: 100%;
+
+  }
+
+  .block2 ol li:before {
+    padding: 2px 10px;
+  }
+
+  .block3 {
+    padding: 5% 5%;
+    padding-bottom: 5%;
+
+  }
+
+  .block3 form h1 {
+
+    font-size: 25px;
+  }
+
+  .block3 form button {
+    font-size: 16px;
+  }
+
+  .block4 {
+    display: block;
+    height: 100%;
+  }
+
+  .block4_blk1 {
+    width: 100%;
+  }
+
+  .block4_blk1 ul li {
+    font-size: 12px;
+    font-weight: 700;
+    padding: 14px 0;
+    list-style-position: outside;
+  }
+
+  .block4_blk1 ul li span {
+    font-size: 12px;
+    font-weight: 300;
+    padding: 15px 0;
+  }
+
+  .block4_blk1 h3 {
+    width: 100%;
+  }
+
+  .block4_blk1 ul li:after {
+
+    left: -10%;
+
+  }
+
+  .block4_blk2 {
+    display: none;
+  }
+
+  .block4_blk1 ul li:before {
+    left: -8%;
+  }
+
+  .footer_block1 .logo img {
+    width: 200px;
+    height: 100px;
+  }
+
+  .footer_block1 .text {
+    width: 60%;
+  }
+
+
+  .footer_block1 {
+    width: 50%;
+  }
+
+  .footer_block2 {
+    width: 50%;
+  }
+
+  .footer_block2 form input {
+    padding: 8px;
+  }
+
+  .footer_block2 form button {
+    padding: 5px;
+  }
+
+  .footer_block1 .footer_icons a {
+    padding: 0;
+    background: none;
+    margin: 10px;
+    border-radius: 50px;
+    font-size: 25px;
+    color: gray;
+    text-shadow: 1px 1px 1px white;
+  }
+
+  .footer_block2 form h3 {
+    font-size: 15px;
+  }
+
+  .footer_block2 form p {
+    font-size: 8px;
+  }
+
+  .footer_block1 button a {
+    font-size: 10px;
+  }
+
+  .footer_block1 .text {
+    font-size: 12px;
+  }
+
+
+  .footer_block1 .button_whatsapp {
+    border-radius: 0;
+    padding: 10px;
+    border: none;
+
+  }
+
+
+  .footer_block1 .button_telegram {
+    padding: 10px;
+    border-radius: 0px;
+    border: none;
+
+
+  }
+
+
+}
+
+@media (min-width:475px) and (max-width:675px) {
+  .header1 {
+    padding: 1% 4%;
+    padding-bottom: 5%;
+  }
+
+  .header_block1 {
+    display: block;
+
+  }
+
+  .head_block1 h1 {
+    color: white;
+    font-weight: 900;
+    text-shadow: 1px 1px 1px #000000;
+    font-size: 35px;
+    width: 100%;
+  }
+
+  .head_block2 form {
+    width: 98%;
+  }
+
+  .head_block2 form .test_head2 {
+    display: flex;
+    align-items: center;
+  }
+
+  .head_block2 form .test_head2 input {
+    width: 2%;
+  }
+
+  .head_block2 form .test_head2 label {
+    font-size: 12px;
+    padding: 0px;
+  }
+
+  .write_whatsapp {
+    background: #25D366;
+    border: 1px solid violet;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 50px;
+  }
+
+  .block1 {
+    padding: 5% 0%;
+  }
+
+  .block1_1 {
+    display: block;
+    justify-content: center;
+  }
+
+
+
+  .block1_1 .cards {
+    width: 100%;
+    height: 100%;
+    padding: 0 5%;
+    margin: 0;
+    padding-bottom: 2%;
+
+
+  }
+
+
+  .block1_1 .cards img {
+    width: 100%;
+    height: 460px;
+  }
+
+  .card_text {
+    padding: 0;
+    height: 100%;
+    overflow: auto;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+
+  .block1_2 {
+    display: block;
+    justify-content: center;
+  }
+
+  .block1_2 .cards {
+
+    width: 100%;
+    height: 100%;
+    padding: 0 5%;
+  }
+
+  .block1_2 .cards img {
+    width: 100%;
+    height: 460px;
+  }
+
+
+
+
+
+
+
+  .block2 {
+    padding: 5% 3%;
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+  }
+
+  .block2_1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .block2_2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .block2_1 li,
+  .block2_2 li {
+    width: 100%;
+
+  }
+
+  .block2 ol li:before {
+    padding: 2px 10px;
+  }
+
+  .block3 {
+    padding: 5% 5%;
+    padding-bottom: 5%;
+
+  }
+
+  .block3 form h1 {
+
+    font-size: 20px;
+  }
+
+  .block3 form input {
+    padding: 8px;
+  }
+
+  .block3 form button {
+    font-size: 13px;
+    padding: 8px;
+  }
+
+  .block4 {
+    display: block;
+    height: 100%;
+  }
+
+  .block4_blk1 {
+    width: 100%;
+  }
+
+  .block4_blk1 ul li {
+    font-size: 12px;
+    font-weight: 700;
+    padding: 14px 0;
+    list-style-position: outside;
+  }
+
+  .block4_blk1 ul li span {
+    font-size: 12px;
+    font-weight: 300;
+    padding: 15px 0;
+  }
+
+  .block4_blk1 h3 {
+    width: 100%;
+  }
+
+  .block4_blk1 ul li:after {
+
+    left: -10%;
+
+  }
+
+  .block4_blk2 {
+    display: none;
+  }
+
+  .block4_blk1 ul li:before {
+    left: -8%;
+  }
+
+
+
+
+
+  .footer1 {
+    display: block;
+  }
+
+
+  .footer_block1 .logo img {
+    width: 200px;
+    height: 100px;
+  }
+
+  .footer_block1 .text {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    font-size: 18px;
+    text-shadow: 1px 1px 1px white;
+  }
+
+
+  .footer_block1 {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .footer_block2 {
+    width: 100%;
+    padding: 5% 0;
+  }
+
+  .footer_block2 form input {
+    padding: 8px;
+  }
+
+  .footer_block2 form button {
+    padding: 5px;
+  }
+
+  .footer_block1 .footer_icons a {
+    padding: 0;
+    background: none;
+    margin: 10px;
+    border-radius: 50px;
+    font-size: 25px;
+    color: gray;
+    text-shadow: 1px 1px 1px white;
+  }
+
+  .footer_block2 form h3 {
+    font-size: 15px;
+  }
+
+  .footer_block2 form p {
+    font-size: 8px;
+  }
+
+  .footer_block1 button a {
+    font-size: 10px;
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+
+
+  .footer_block1 .text {
+    font-size: 12px;
+  }
+
+
+  .footer_block1 .button_whatsapp {
+    border-radius: 0;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    font-size: 18px;
+  }
+
+
+  .footer_block1 .button_telegram {
+    padding: 10px;
+    border-radius: 0px;
+    border: none;
+    width: 100%;
+
+
+
+  }
+}
+
+@media (min-width:320px) and (max-width:475px) {
+
+  .header1 {
+    padding: 1% 4%;
+    padding-bottom: 5%;
+  }
+
+  .header_block1 {
+    display: block;
+
+  }
+
+  .head_block1 h1 {
+    color: white;
+    font-weight: 900;
+    text-shadow: 1px 1px 1px #000000;
+    font-size: 35px;
+    width: 100%;
+  }
+
+  .head_block2 form {
+    width: 100%;
+  }
+
+  .head_block2 form .test_head2 {
+    display: flex;
+    align-items: center;
+  }
+
+  .head_block2 form .test_head2 input {
+    width: 2%;
+  }
+
+  .head_block2 form .test_head2 label {
+    font-size: 12px;
+    padding: 0px;
+  }
+
+  .write_whatsapp {
+    background: #25D366;
+    border: 1px solid violet;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 50px;
+  }
+
+  .block1 {
+    padding: 5% 0%;
+  }
+
+  .block1_1 {
+    display: block;
+    justify-content: center;
+  }
+
+
+
+  .block1_1 .cards {
+    width: 100%;
+    height: 100%;
+    padding: 0 5%;
+    margin: 0;
+    padding-bottom: 2%;
+
+
+  }
+
+
+  .block1_1 .cards img {
+    width: 100%;
+    height: 300px;
+  }
+
+  .card_text {
+    padding: 0;
+    height: 100%;
+    overflow: auto;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+
+  .block1_2 {
+    display: block;
+    justify-content: center;
+  }
+
+  .block1_2 .cards {
+
+    width: 100%;
+    height: 100%;
+    padding: 0 5%;
+  }
+
+  .block1_2 .cards img {
+    width: 100%;
+    height: 460px;
+  }
+
+
+
+
+
+
+
+  .block2 {
+    padding: 5% 3%;
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+  }
+
+  .block2_1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .block2_2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .block2_1 li,
+  .block2_2 li {
+    width: 100%;
+
+  }
+
+  .block2 ol li:before {
+    padding: 2px 10px;
+  }
+
+  .block3 {
+    padding: 5% 5%;
+    padding-bottom: 5%;
+
+  }
+
+  .block3_form {
+    display: block;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .block3 form h1 {
+
+    font-size: 20px;
+  }
+
+  .block3 form input {
+    padding: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .block3 form button {
+    font-size: 13px;
+    padding: 8px;
+    width: 100%;
+  }
+
+  .block4 {
+    display: block;
+    height: 100%;
+  }
+
+  .block4_blk1 {
+    width: 100%;
+  }
+
+  .block4_blk1 ul li {
+    font-size: 12px;
+    font-weight: 700;
+    padding: 14px 0;
+    list-style-position: outside;
+  }
+
+  .block4_blk1 ul li span {
+    font-size: 12px;
+    font-weight: 300;
+    padding: 15px 0;
+  }
+
+  .block4_blk1 h3 {
+    width: 100%;
+  }
+
+  .block4_blk1 ul li:after {
+
+    left: -10%;
+
+  }
+
+  .block4_blk2 {
+    display: none;
+  }
+
+  .block4_blk1 ul li:before {
+    left: -8%;
+  }
+
+
+
+
+
+  .footer1 {
+    display: block;
+  }
+
+
+  .footer_block1 .logo img {
+    width: 200px;
+    height: 100px;
+  }
+
+  .footer_block1 .text {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    font-size: 18px;
+    text-shadow: 1px 1px 1px white;
+  }
+
+
+  .footer_block1 {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .footer_block2 {
+    width: 100%;
+    padding: 5% 0;
+  }
+
+  .footer_block2 form input {
+    padding: 8px;
+  }
+
+  .footer_block2 form button {
+    padding: 5px;
+  }
+
+  .footer_block1 .footer_icons a {
+    padding: 0;
+    background: none;
+    margin: 10px;
+    border-radius: 50px;
+    font-size: 25px;
+    color: gray;
+    text-shadow: 1px 1px 1px white;
+  }
+
+  .footer_block2 form h3 {
+    font-size: 15px;
+  }
+
+  .footer_block2 form p {
+    font-size: 8px;
+  }
+
+  .footer_block1 button a {
+    font-size: 10px;
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+
+
+  .footer_block1 .text {
+    font-size: 12px;
+  }
+
+
+  .footer_block1 .button_whatsapp {
+    border-radius: 0;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    font-size: 18px;
+  }
+
+
+  .footer_block1 .button_telegram {
+    padding: 10px;
+    border-radius: 0px;
+    border: none;
+    width: 100%;
+
+
+
+  }
+}
+
+@media (min-width:295px) and (max-width:320px) {
+
+  .header1 {
+    padding: 1% 4%;
+    padding-bottom: 5%;
+  }
+
+  .header_block1 {
+    display: block;
+
+  }
+
+  .head_block1 h1 {
+    color: white;
+    font-weight: 900;
+    text-shadow: 1px 1px 1px #000000;
+    font-size: 30px;
+    width: 100%;
+  }
+
+  .head_block2 form {
+    width: 100%;
+  }
+
+  .head_block2 form .test_head2 {
+    display: flex;
+    align-items: center;
+  }
+
+  .head_block2 form .test_head2 input {
+    width: 2%;
+  }
+
+  .head_block2 form .test_head2 label {
+    font-size: 10px;
+    padding: 0px;
+  }
+
+  .write_whatsapp {
+    background: #25D366;
+    border: 1px solid violet;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 50px;
+  }
+
+  .block1 {
+    padding: 5% 0%;
+  }
+
+  .block1_1 {
+    display: block;
+    justify-content: center;
+  }
+
+
+
+  .block1_1 .cards {
+    width: 100%;
+    height: 100%;
+    padding: 0 5%;
+    margin: 0;
+    padding-bottom: 2%;
+
+
+  }
+
+
+  .block1_1 .cards img {
+    width: 100%;
+    height: 300px;
+  }
+
+  .card_text {
+    padding: 0;
+    height: 100%;
+    overflow: auto;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+
+  .block1_2 {
+    display: block;
+    justify-content: center;
+  }
+
+  .block1_2 .cards {
+
+    width: 100%;
+    height: 100%;
+    padding: 0 5%;
+  }
+
+  .block1_2 .cards img {
+    width: 100%;
+    height: 460px;
+  }
+
+
+
+
+
+
+
+  .block2 {
+    padding: 5% 3%;
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+  }
+
+  .block2_1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .block2_2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .block2_1 li,
+  .block2_2 li {
+    width: 100%;
+
+  }
+
+  .block2 ol li:before {
+    padding: 2px 10px;
+  }
+
+  .block3 {
+    padding: 5% 5%;
+    padding-bottom: 5%;
+
+  }
+
+  .block3_form {
+    display: block;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .block3 form h1 {
+
+    font-size: 16px;
+  }
+
+  .block3 form input {
+    padding: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .block3 form button {
+    font-size: 13px;
+    padding: 8px;
+    width: 100%;
+  }
+
+  .block4 {
+    display: block;
+    height: 100%;
+  }
+
+  .block4_blk1 {
+    width: 100%;
+  }
+
+  .block4_blk1 ul li {
+    font-size: 12px;
+    font-weight: 700;
+    padding: 14px 0;
+    list-style-position: outside;
+  }
+
+  .block4_blk1 ul li span {
+    font-size: 12px;
+    font-weight: 300;
+    padding: 15px 0;
+  }
+
+  .block4_blk1 h3 {
+    width: 100%;
+  }
+
+  .block4_blk1 ul li:after {
+
+    left: -10%;
+
+  }
+
+  .block4_blk2 {
+    display: none;
+  }
+
+  .block4_blk1 ul li:before {
+    left: -8%;
+  }
+
+
+
+
+
+  .footer1 {
+    display: block;
+  }
+
+
+  .footer_block1 .logo img {
+    width: 200px;
+    height: 100px;
+  }
+
+  .footer_block1 .text {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    font-size: 18px;
+    text-shadow: 1px 1px 1px white;
+  }
+
+
+  .footer_block1 {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .footer_block2 {
+    width: 100%;
+    padding: 5% 0;
+  }
+
+  .footer_block2 form input {
+    padding: 8px;
+  }
+
+  .footer_block2 form button {
+    padding: 5px;
+  }
+
+  .footer_block1 .footer_icons a {
+    padding: 0;
+    background: none;
+    margin: 10px;
+    border-radius: 50px;
+    font-size: 25px;
+    color: gray;
+    text-shadow: 1px 1px 1px white;
+  }
+
+  .footer_block2 form h3 {
+    font-size: 15px;
+  }
+
+  .footer_block2 form p {
+    font-size: 8px;
+  }
+
+  .footer_block1 button a {
+    font-size: 10px;
+    font-size: 15px;
+    font-weight: 700;
+  }
+
+
+
+  .footer_block1 .text {
+    font-size: 12px;
+  }
+
+
+  .footer_block1 .button_whatsapp {
+    border-radius: 0;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    font-size: 15px;
+  }
+
+
+  .footer_block1 .button_telegram {
+    padding: 10px;
+    border-radius: 0px;
+    border: none;
+    width: 100%;
+
+
+
+  }
+}
+
+
+
+.mdl_okno1 .modal-content {
+  width: 90%;
+  padding: 2% 8%;
+  padding-bottom: 8%;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+
+.mdl_okno1 .modal-content a i {
+  color: black;
+  font-size: 25px;
+}
+
+.mdl_okno1 .modal-content form {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mdl_okno1 .modal-content form h3 {
+  text-align: center;
+}
+
+.mdl_okno1 .modal-content form input {
+  width: 100%;
+  padding: 20px;
+  margin: 5px 0;
+  background-color: #f1f1f1;
+  border: none;
+  border-radius: 10px;
+}
+
+.mdl_okno1 .modal-content .test_head2 {
+  display: flex;
+  align-items: center;
+}
+
+.mdl_okno1 .modal-content .test_head2 input {
+
+  width: 20%;
+
+}
+
+.mdl_okno1 .modal-content button {
+  width: 100%;
+  padding: 15px;
+  font-size: 25px;
+  border-radius: 10px;
+  border: none;
+  background-color: black;
+  color: white;
+  font-weight: 700;
+  text-shadow: 1px 1px 1px white;
+}
+
+.mdl_okno1 .modal-content button:hover {
+  background-color: #25D366;
+}
+
+
+
+
+.modal2 .modal-dialog {
+  margin: 0;
+  padding: 0;
+  max-width: 1600px;
+  width: 100%;
+  border-radius: 0;
+
+}
+
+.modal2 .modal-content {
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+  padding-bottom: 5%;
+
+}
+
+.modal_a {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.modal_a a {
+  color: black;
+  text-decoration: none;
+  padding: 5px;
+
+}
+
+.modal_a a:hover {
+  color: blue;
+  text-decoration: underline;
+
+}
